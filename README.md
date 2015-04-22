@@ -1,13 +1,11 @@
-# laravel5_lang
-
-[![Join the chat at https://gitter.im/danielromeroauk/laravel5_lang](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/danielromeroauk/laravel_lang?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-Internacionalización de Laravel 5.
+# laravel_lang
 
 Para usar la internacionalización de Laravel 5 en el idioma de tu preferencia descarga la carpeta de tu idioma y ubícala en la carpeta <code>resources/lang/</code> de tu proyecto.
 
 Luego cambia el valor de la llave <code>locale</code> en el archivo <code>config/app.php</code> por el nombre de la carpeta de tu idioma.
  
-Ejemplo: Para usar el idioma español españa es-ES el árbol de archivos queda así:
+Ejemplo: Para usar el idioma español españa (es-ES) el árbol de archivos queda así:
+
 ```
 resourses/
     |lang/
@@ -19,6 +17,7 @@ resourses/
 ```
 
 Luego, en el archivo <code>config/app.php</code> cambiamos el valor de la llave <code>locale</code> por <code>es-ES</code>
+
 ```
 	/*
 	|--------------------------------------------------------------------------
@@ -34,4 +33,4 @@ Luego, en el archivo <code>config/app.php</code> cambiamos el valor de la llave 
 	'locale' => 'es-ES',
 ```
  
-Si tienes alguna duda, entra al chat de este repositorio: [https://gitter.im/danielromeroauk/laravel_lang](https://gitter.im/danielromeroauk/laravel_lang)
+Chat de este repositorio: [https://gitter.im/danielromeroauk/laravel_lang](https://gitter.im/danielromeroauk/laravel_lang)
