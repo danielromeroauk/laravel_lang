@@ -1,22 +1,25 @@
-# laravel5_lang_es
+# laravel_lang
 
-[![Join the chat at https://gitter.im/danielromeroauk/laravel5_lang_es](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/danielromeroauk/laravel5_lang_es?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
- Mensajes de Laravel 5 en español.
+[![Join the chat at https://gitter.im/danielromeroauk/laravel_lang](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/danielromeroauk/laravel_lang?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Para activar los mensajes de Laravel 5 en español creas una carpeta llamada <code>es</code> dentro de <code>resources/lang/</code> y colocas ahí los archivos de este repositorio.
+Para usar la internacionalización de Laravel 5 en el idioma de tu preferencia descarga la carpeta de tu idioma y ubícala en la carpeta <code>resources/lang/</code> de tu proyecto.
 
-El árbol de archivos queda así:
+Luego cambia el valor de la llave <code>locale</code> en el archivo <code>config/app.php</code> por el nombre de la carpeta de tu idioma.
+ 
+Ejemplo: Para usar el idioma español españa (es-ES) el árbol de archivos queda así:
+
 ```
 resourses/
     |lang/
       |en/
-      |es/
+      |es-ES/
         |pagination.php
         |passwords.php
         |validation.php
 ```
 
-Luego, en el archivo <code>config/app.php</code> cambias el valor de la llave <code>locale</code> por <code>es</code>
+Luego, en el archivo <code>config/app.php</code> cambiamos el valor de la llave <code>locale</code> por <code>es-ES</code>
+
 ```
 	/*
 	|--------------------------------------------------------------------------
@@ -29,6 +32,7 @@ Luego, en el archivo <code>config/app.php</code> cambias el valor de la llave <c
 	|
 	*/
 
-	'locale' => 'es',
+	'locale' => 'es-ES',
 ```
-Si tienes alguna duda, puedes entrar al chat de este repositorio en https://gitter.im/danielromeroauk/laravel5_lang_es
+ 
+Chat de este repositorio: [https://gitter.im/danielromeroauk/laravel_lang](https://gitter.im/danielromeroauk/laravel_lang)
